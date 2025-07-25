@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src":"XmainX.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src":"/(.*)", 
+            "dest":"XmainX.py"
+        }
+    ]
+} | Source: Genelify.com 
