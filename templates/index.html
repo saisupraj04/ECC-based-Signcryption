@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elliptic Curve Cryptography</title>
+    <style>
+
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: yellow;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            color: rgb(0, 0, 0);
+        }
+
+        input, button {
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #784caf;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SIGNCRYPTION USING ELLIPTICAL CURVE CRYPTOGRAPHY</h1>
+    
+        <form action="/points" method="post">
+
+            <h3> ENTER THE PARAMETRES OF THE CURVE</h3>
+
+            <label for="inputA">Enter A:</label>
+            <input type="number" name="inputA" required>
+
+            <label for="inputB">Enter B:</label>
+            <input type="number" name="inputB" required>
+
+            <label for="inputQ">Enter Q:</label>
+            <input type="number" name="inputQ" required>
+
+            <button type="submit">Generate points on the curve</button>
+        </form>
+    </div>
+
+</body>
+</html>
